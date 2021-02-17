@@ -6,9 +6,9 @@ ir-keytable custom mapping for Elegoo nec remote included
 
 pins:
 asMotor = Motor(27,17)
-apMotor = Motor
-fsMotor = Motor
-fpMotor = Motor
+apMotor = Motor(16,16)
+fsMotor = Motor(16,12)
+fpMotor = Motor(21,20)
 
 added to rc.local:
 1. ir-keytable -c
