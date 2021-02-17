@@ -1,5 +1,16 @@
 # robo_rpi0w
-cpp code for controlling 4 motor raspberry pi zero w robot
 
-test test
-test test
+.py code for controlling 4 motor raspberry pi zero w robot
+ir-keytable custom mapping for Elegoo nec remote included
+
+
+pins:
+asMotor = Motor(27,17)
+apMotor = Motor
+fsMotor = Motor
+fpMotor = Motor
+
+added to rc.local:
+1. ir-keytable -c
+2. ir-keytable -w /etc/rc_keymaps/nec_custom.toml
+3. /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --deviceglob /dev/input/event*
