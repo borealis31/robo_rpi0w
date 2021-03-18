@@ -11,7 +11,7 @@ pins:
 4. fpMotor = Motor(21,20)
 (a/f -> Aft/Forward, s/p -> Starbord/Port)
 
-added to rc.local:
+added to rc.local due to bugs in built-in IR reception:
 1. ir-keytable -c
 2. ir-keytable -w /etc/rc_keymaps/nec_custom.toml
 3. /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --deviceglob /dev/input/event*
