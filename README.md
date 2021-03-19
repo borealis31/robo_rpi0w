@@ -17,5 +17,5 @@ added to rc.local due to bugs in built-in IR reception:
 3. /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --deviceglob /dev/input/event*
 
 To-Do:
-[ ] Implement IMU
+[x] Implement IMU
 [ ] Try Web-Based Control or Bluetooth Control to Make Use of Camera Module
