@@ -4,11 +4,12 @@ Included: .py code for controlling 4 motor raspberry pi zero with robot
 ir-keytable custom mapping for Elegoo nec remote
 
 
-pins:
-1. asMotor = Motor(27,17)
-2. apMotor = Motor(16,16)
-3. fsMotor = Motor(16,12)
-4. fpMotor = Motor(21,20)
+Motor | Initialization
+------|---------------
+asMotor | Motor(27,17)
+apMotor | Motor(16,16)
+fsMotor | Motor(16,12)
+fpMotor | Motor(21,20)
 (a/f -> Aft/Forward, s/p -> Starbord/Port)
 
 added to rc.local due to bugs in built-in IR reception:
