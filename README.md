@@ -15,3 +15,7 @@ added to rc.local due to bugs in built-in IR reception:
 1. ir-keytable -c
 2. ir-keytable -w /etc/rc_keymaps/nec_custom.toml
 3. /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --deviceglob /dev/input/event*
+
+To-Do:
+[] Implement IMU
+[] Try Web-Based Control or Bluetooth Control to Make Use of Camera Module
